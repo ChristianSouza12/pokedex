@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/1089608.png") ;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding:1rem;
+    background-color: rgba(255, 255, 255, 0.5); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  
+}
+
+@media screen and (min-width:992px){
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius:1rem ;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
