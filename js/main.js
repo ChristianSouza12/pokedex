@@ -16,7 +16,7 @@ function loadPokemonItens(offset,limit){
 
     function convertPokemonToLi(pokemon) {
         return `
-        <li class="pokemon ${pokemon.type}" onclick="handlePokemonClick('${pokemon.name}')">
+        <li class="pokemon ${pokemon.type} bg "'${pokemon.name}')">
         <span class="number">#${pokemon.number}</span>
         <span class="name">${pokemon.name}</span>
     
@@ -24,9 +24,10 @@ function loadPokemonItens(offset,limit){
         <div class="detail">
             <ol class="types">
                 ${pokemon.types.map(((type)=>` <li class="type ${type}">${type}</li>`)).join("")}
+                
             </ol>
            
-    
+        
             <img src="${pokemon.photo}"
                 alt="${pokemon.name}">
                 
@@ -76,9 +77,4 @@ LoadMoreButton.addEventListener("click",() =>{
     
 })
 
-
-function handlePokemonClick(pokemonName) {
-   
-    document.getElementById("stats").innerHTML = "<p>iksdjoad</p>"
-}
 
