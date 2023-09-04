@@ -8,7 +8,7 @@ O aplicativo possui um botão inferior que permite ao usuário carregar mais Pok
 
   
 ## Conheça o projeto
-Acesse o projeto [clicando aqui](https://pokedexstgeneration.netlify.app/), ou faça download desse repositório e acessando o arquivo `index.html`
+Acesse o projeto [clicando aqui](https://firstpokedex.netlify.app/), ou faça download desse repositório e acessando o arquivo `index.html`
 ## Ferramentas utilizadas
 
 **Fonte Roboto:** Uma fonte da família sans-serif projetada por Christian Robertson e lançada pelo Google como parte do sistema operacional Android.
