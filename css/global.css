@@ -22,7 +22,7 @@ body{
 }
 
 .content .pokemon{
-    background-image: url("https://o.remove.bg/downloads/efe5724e-6652-469e-9824-4ba104fb2941/Design_sem_nome__3_-removebg-preview.png");
+    background-image: url("/assets/back.png");
     background-size: cover;
 }
 
